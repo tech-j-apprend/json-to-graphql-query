@@ -1,6 +1,6 @@
 {
-    "name": "json-to-graphql-query",
-    "version": "2.2.4",
+    "name": "@tech-j-apprend/json-to-graphql-query",
+    "version": "1.0.1",
     "main": "lib/index.js",
     "license": "MIT",
     "scripts": {
@@ -11,7 +11,7 @@
     "typings": "lib/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/vkolgi/json-to-graphql-query.git"
+        "url": "https://github.com/tech-j-apprend/json-to-graphql-query.git"
     },
     "devDependencies": {
         "@types/chai": "4.3.0",
