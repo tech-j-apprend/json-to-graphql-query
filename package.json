@@ -1,18 +1,17 @@
 {
-    "name": "json-to-graphql-query",
-    "version": "2.2.4",
+    "name": "@tech-j-apprend/json-to-graphql-query",
+    "version": "1.0.1",
     "main": "lib/index.js",
     "license": "MIT",
     "scripts": {
-        "build": "tslint -p . && rm -rf lib/ && tsc",
+        "build": "tslint -p . && tsc",
         "test": "mocha -r ts-node/register --recursive \"./src/**/__tests__/*\"",
-        "test-watch": "mocha -r ts-node/register --recursive \"./src/**/__tests__/*\" --watch --watch-extensions ts,tsx",
-        "prepare": "npm run build && npm run test"
+        "test-watch": "mocha -r ts-node/register --recursive \"./src/**/__tests__/*\" --watch --watch-extensions ts,tsx"
     },
     "typings": "lib/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/vkolgi/json-to-graphql-query.git"
+        "url": "https://github.com/tech-j-apprend/json-to-graphql-query.git"
     },
     "devDependencies": {
         "@types/chai": "4.3.0",
